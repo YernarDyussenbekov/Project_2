@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:wght@500&display=swap");
+
+.navbar-brand {
+  display: flex;
+  height: 22px;
+  gap: 10px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.navbar {
+  display: flex;
+  height: 70px;
+  padding: 24px 160px 24px 160px;
+  gap: 752px;
+}
+
+.header {
+  display: flex;
+  height: 248px;
+  padding: 64px 160px 64px 160px;
+  gap: 752px;
+}
+
+.header-title {
+  display: flex;
+  height: 120px;
+  gap: 10px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 120px;
+}
+
+.title_style {
+  display: flex;
+  height: 34px;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-decoration: none;
+}
+.summary {
+  margin-top: 40px;
+  height: 44px;
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.left_news {
+  height: 274px;
+  gap: 70px;
+}
+
+.left_news_top {
+  height: 174px;
+  gap: 48px;
+}
+
+.InfoBottom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+  margin-top: 60px;
+}
+
+.InfoBottom p {
+  display: flex;
+  margin-top: 1em;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+}
+
+.btnSecondary {
+  gap: 8px;
+  padding: 6px 16px 6px 16px;
+  border-radius: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  border: none;
+  color: rgba(8, 30, 52, 1);
+  background-color: rgba(8, 30, 52, 0.12);
+}
+.InfoBottom img {
+  display: flex;
+  justify-content: space-between; /* Add a gap of 14px between img and icons */
+}
+
+.icon,
+.icon1,
+.icon2 {
+  height: 24px;
+  width: 24px;
+  margin-right: 14px;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.photo {
+  width: 250px;
+  height: 250px;
+}
+
+.Authors {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.Authors img {
+  border-radius: 30px;
+  width: 24px;
+  height: 24px;
+  transform: scale(1.2);
+}
+.Authors span {
+  font-family: "Inter", sans-serif;
+  opacity: 50%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.logo {
+  height: 24px;
+  gap: 10px;
+}
+.post {
+  height: 1718px;
+  border: 0px 0px 1px 0px;
+  padding: 96px 160px 36px 160px;
+  gap: 100px;
+}
+.Newsnav {
+  height: 1586px;
+  gap: 70px;
+}
+.infoprof {
+  gap: 697px;
+  height: 64px;
+}
+.infoleft {
+  display: flex;
+  height: 64px;
+  gap: 16px;
+}
+.textinfoleft {
+  display: flex;
+  flex-direction: column;
+  height: 52px;
+}
+.textinfoleft p {
+  gap: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.textinfoleft span {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 50%;
+}
+.infoLeftLogo {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 24px;
+  gap: 10px;
+}
+.TextPost {
+  height: 98px;
+  gap: 24px;
+  margin-top: 50px;
+}
+.TextPost p {
+  height: 38px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 38px;
+}
+.TextPost span {
+  height: 36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.TextPostIMG {
+  display: flex;
+  margin-top: 50px;
+  height: 480px;
+  border-radius: 4px;
+}
+.TextPostlong {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.TextPostlong p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.TextPostlong span {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.infobuttom {
+  display: flex;
+  justify-content: space-between; /* Align items with space between */
+  align-items: center;
+  margin-top: 30px;
+  height: 24px;
+  gap: 14px;
+  margin-top: 10px;
+}
+.Actions {
+  display: flex;
+  margin-left: 10px;
+}
